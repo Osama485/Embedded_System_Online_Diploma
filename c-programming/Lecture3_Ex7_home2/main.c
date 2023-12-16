@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+// C program to find the factorial number
+#include<stdio.h>
+int main()
+{
+	int i, fact = 1, n;
+	printf("Enter your number to find it's factorial: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d", &n);
+
+	for(i = 1; i <= n; i++)
+		fact *= i;
+	if(n < 0)
+		printf("Error!!! Factorial of negative number dosen't exist. ");
+	else
+		printf("The factorial number of %d = %d", n, fact);
+	return 0;
+}
