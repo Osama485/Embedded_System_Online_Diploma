@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 5, 2024
+ *      Author: IT
+ */
+
+#include <stdio.h>
+
+struct Student
+{
+	char name[20];
+	int roll;
+	float marks;
+};
+
+int main()
+{
+	struct Student s;
+	printf("Enter info of students \n");
+	printf("Enter name");
+	fflush(stdout);
+	scanf("%s", &(s.name));
+	return 0;
+}

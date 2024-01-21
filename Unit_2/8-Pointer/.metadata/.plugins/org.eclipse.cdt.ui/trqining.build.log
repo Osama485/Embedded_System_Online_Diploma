@@ -1,0 +1,17 @@
+22:12:12 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:51:2: error: function 'ptr' is initialized like a variable
+  void *ptr(int*) = (int*)&a;
+  ^~~~
+..\main.c:51:8: error: nested function 'ptr' declared but never defined
+  void *ptr(int*) = (int*)&a;
+        ^~~
+..\main.c: In function 'call':
+..\main.c:60:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+
+22:12:12 Build Finished (took 194ms)
+

@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٦‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+#include<string.h>
+int fun()
+{
+	int y = 10;
+	return y;
+}
+
+int main()
+{
+	int arr[] = {1, 2, 3, 4, 5};
+
+
+	printf("%d" ,strlen(const char*)arr));
+	return 0;
+}

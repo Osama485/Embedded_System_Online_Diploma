@@ -1,0 +1,16 @@
+/*
+ * main.c
+ *
+ *  Created on: ١٢‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+#include <stdio.h>
+int main()
+{
+	int x = 10;
+	int *ptr = &x;
+	printf("X = %d \t Ptr = %d", x, *ptr);
+	return 0;
+}

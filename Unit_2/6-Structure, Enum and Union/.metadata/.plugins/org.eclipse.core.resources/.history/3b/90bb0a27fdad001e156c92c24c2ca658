@@ -1,0 +1,40 @@
+/*
+ * main.c
+ *
+ *  Created on: ٠٨‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+
+struct complex
+{
+	double m_R;
+	double m_I;
+};
+
+
+struct complex Add(struct complex a, struct complex b)
+{
+	struct complex x;
+	x.m_R = a.m_R + b.m_R;
+	x.m_I = a.m_I + b.m_I;
+
+	return x;
+}
+
+int  main()
+{
+	struct complex x, sum;
+	printf("For 1st complex number \nEnter real and imaginary: ");
+	fflush(stdout);
+	scanf("%lf %lf", &x.m_R, &x.m_I);
+
+	printf("For 2st complex number \nEnter real and imaginary: ");
+	fflush(stdout);
+	scanf("%lf %lf", &x.m_R, &x.m_I);
+	sum = Add(x.m_R, x.m_I);
+
+	printf("sum = %lf ", sum);
+	return 0;
+}

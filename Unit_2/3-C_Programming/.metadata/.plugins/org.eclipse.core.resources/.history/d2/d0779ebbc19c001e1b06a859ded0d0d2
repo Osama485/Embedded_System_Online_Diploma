@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	int a_ = 1, b = 0;
+
+	int add  = a_ && b;
+	int or = a_ || b;
+	printf("add = %d \n", add);
+	printf("or = %d ", or);
+	return 0;
+}

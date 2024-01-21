@@ -1,0 +1,24 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+// Write Source Code to Swap Two Numbers
+
+#include<stdio.h>
+int main()
+{
+	float n1, n2;
+	printf("Enter two number for swapping: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%f %f", &n1, &n2);
+	printf("Before swap\n n1 = %f -- n2 = %f\n", n1, n2);
+	float temp = n1;
+	n1 = n2;
+	n2 = temp;
+
+	printf("After swap\n n1 = %f -- n2 = %f", n1, n2);
+	return 0;
+}

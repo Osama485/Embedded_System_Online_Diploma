@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٦‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+#include<string.h>
+void fun(int arr[])
+{
+	int size = sizeof(arr)/sizeof(arr[0]);
+	printf("%d", size);
+}
+
+int main()
+{
+	printf("%d", sizeof(3.14));
+	return 0;
+}

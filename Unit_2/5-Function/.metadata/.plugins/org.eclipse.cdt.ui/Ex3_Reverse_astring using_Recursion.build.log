@@ -1,0 +1,15 @@
+22:05:26 **** Incremental Build of configuration Debug for project Ex3_Reverse_astring using_Recursion ****
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Ex3_Reverse_astring using_Recursion
+Invoking: Cross GCC Linker
+gcc -ansi -std=c89  -o "Ex3_Reverse_astring using_Recursion"  ./main.o   
+Finished building target: Ex3_Reverse_astring using_Recursion
+ 
+
+22:05:27 Build Finished (took 660ms)
+

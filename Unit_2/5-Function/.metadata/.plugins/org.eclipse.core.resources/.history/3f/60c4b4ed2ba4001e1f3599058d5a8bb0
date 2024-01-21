@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٦‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	printf("cdoin");
+	return 0;
+}

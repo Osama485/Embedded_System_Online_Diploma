@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+// simple calculator
+
+#include<stdio.h>
+int main()
+{
+	char sign;
+	int n1, n2;
+	printf("Enter your number to find it's factorial: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d", &n);
+}

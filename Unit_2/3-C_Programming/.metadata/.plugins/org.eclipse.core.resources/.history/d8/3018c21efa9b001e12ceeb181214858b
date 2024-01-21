@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+//write C program to check Vowel or Constant
+
+#include<stdio.h>
+void main()
+{
+	char x;
+	printf("Enter a character to check: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d", &n);
+}
+

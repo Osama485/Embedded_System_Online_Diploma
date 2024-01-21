@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: 13 Jan 2024
+ *      Author: Osama
+ */
+
+#include <string.h>
+#include <stdio.h>
+int main()
+{
+	printf("dckfgl");
+	return 0;
+}

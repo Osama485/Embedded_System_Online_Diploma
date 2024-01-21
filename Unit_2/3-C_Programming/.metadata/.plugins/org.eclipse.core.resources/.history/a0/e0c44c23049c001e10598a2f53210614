@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+#include <stdio.h>
+int main()
+{
+	char chr;
+	printf("Enter a character to check: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%c", &chr);
+
+	if((chr >= 'a' && chr <='z' ) || (chr >='A' && chr <='Z'))
+		printf("%c is Alphabet...", chr);
+	else
+		printf("%c isn't Alphabet...", chr);
+}

@@ -1,0 +1,13 @@
+/*
+ * main.c
+ *  Created on: ٠٨‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	printf("Osama");
+	return 0;
+}

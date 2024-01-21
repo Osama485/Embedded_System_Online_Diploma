@@ -1,0 +1,41 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٥‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include <stdio.h>
+#include <string.h>
+void tryToModify(int x, char name[])
+{
+	x++;
+	name[0]--;
+}
+
+void printh(int downCount)
+{
+	printf("Hello.\n");
+	downCount--;
+
+	if(downCount > 0)
+		printh(downCount);
+}
+
+int main()
+{
+	void fun();
+	fun();
+	printf("\n");
+	return 0;
+}
+
+void fun()
+{
+	char c;
+	if((c = getchar()) != '\n')
+		fun();
+	printf("%c", c);
+}
+
+

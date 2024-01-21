@@ -1,0 +1,50 @@
+/*
+ * main.c
+ *
+ *  Created on: ١٨‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+int main()
+{
+	int matrix[20][20], transpose[20][20], row, col, r, c;
+	printf("Enter number of Rows and columns:");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %d", &r, &c);
+	printf("Enter matrix Elements: \n");
+	for(row = 0; row < r; ++row)
+	{
+		for(col = 0; col < c; ++col)
+		{
+			printf("element [%d, %d] : ", row, col);
+			fflush(stdin); fflush(stdout);
+			scanf("%d ", &matrix[row][col]);
+		}
+	}
+	printf("The matrix: \n");
+	for(row = 0; row < r; ++row)
+	{
+		for(col = 0; col < c; ++col)
+		{
+			printf("%d  ", matrix[row][col]);
+			if(col == c-1)
+				printf("\n");
+		}
+	}
+	  // computing the transpose
+	  for (int i = 0; i < r; ++i)
+	  for (int j = 0; j < c; ++j) {
+	    transpose[j][i] = matrix[i][j];
+	  }
+
+	  // printing the transpose
+	  printf("\nTranspose of the matrix:\n");
+	  for (int i = 0; i < c; ++i)
+	  for (int j = 0; j < r; ++j) {
+	    printf("%d  ", transpose[i][j]);
+	    if (j == r - 1)
+	    printf("\n");
+	  }
+	return 0;
+}

@@ -1,0 +1,13 @@
+/*
+ * main.c
+ *
+ *  Created on: 13 Jan 2024
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	return 0;
+}

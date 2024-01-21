@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٦‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+
+int main()
+{
+
+
+	printf("%d ",fun());
+	printf("Osma");
+	return 0;
+}
+char fun()
+{
+	return 10;
+}

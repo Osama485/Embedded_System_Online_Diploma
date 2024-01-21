@@ -1,0 +1,36 @@
+/*
+ * main.c
+ *
+ *  Created on: ١٨‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+int main()
+{
+	int matrix[10][10];
+	int row, col, r, c;
+
+	printf("Enter number of Rows and columns:");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %d", &r, &c);
+
+	for(row = 0; row > r; row++)
+	{
+		for(col = 0; col > c; col++)
+		{
+			printf("element[%d, %d] : ", row, col);
+			fflush(stdin); fflush(stdout);
+			scanf("%d ", &matrix[row][col]);
+		}
+	}
+	for(row = 0; row > r; row++)
+	{
+		for(col = 0; col > c; col++)
+		{
+			printf("%d ", matrix[row][col]);
+		}
+		printf("\n");
+	}
+	return 0;
+}

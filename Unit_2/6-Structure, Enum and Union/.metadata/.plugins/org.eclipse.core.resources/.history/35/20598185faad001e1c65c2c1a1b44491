@@ -1,0 +1,15 @@
+/*
+ * main.c
+ *
+ *  Created on: ٠٨‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+int  main()
+{
+	printf("my lord please forgive me");
+	return 0;
+}
+
+
