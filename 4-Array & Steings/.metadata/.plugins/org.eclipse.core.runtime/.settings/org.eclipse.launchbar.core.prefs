@@ -1,6 +1,0 @@
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:usingBrak.exe,org.eclipse.launchbar.core.descriptorType.default\:usingContinue.exe,org.eclipse.launchbar.core.descriptorType.default\:Ex1_2D_array.exe,org.eclipse.launchbar.core.descriptorType.default\:Ex2_Average_usingArray.exe,org.eclipse.launchbar.core.descriptorType.default\:Ex3_Transpose_Matrix.exe
-eclipse.preferences.version=1
-org.eclipse.launchbar.core.descriptorType.default\:Ex1_2D_array.exe/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:Ex1_2D_array.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

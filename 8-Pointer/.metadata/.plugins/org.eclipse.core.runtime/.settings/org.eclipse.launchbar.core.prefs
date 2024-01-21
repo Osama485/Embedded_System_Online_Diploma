@@ -1,9 +1,0 @@
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
-LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.launchbar.core.descriptorType.default\:array_of pointers.exe,org.eclipse.launchbar.core.descriptorType.default\:declare Ptr to ptr.exe,org.eclipse.launchbar.core.descriptorType.default\:Ex1_pointer in program.exe,org.eclipse.launchbar.core.descriptorType.default\:Ex2_alphabets using a pointer.exe,org.eclipse.launchbar.core.descriptorType.default\:Ex3_string in reverse using a pointer.exe,org.eclipse.launchbar.core.descriptorType.default\:Ex4_array in reverse.exe,org.eclipse.launchbar.core.descriptorType.default\:Pointer to structre_2.exe,org.eclipse.launchbar.core.descriptorType.default\:pointer to structure.exe,org.eclipse.launchbar.core.descriptorType.default\:ptr in_Embedded C.exe,org.eclipse.launchbar.core.descriptorType.default\:sortArray with pointers.exe,org.eclipse.launchbar.core.descriptorType.default\:trqining.exe
-eclipse.preferences.version=1
-org.eclipse.launchbar.core.descriptorType.default\:array_of\ pointers.exe/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:array_of\ pointers.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:pointer\ to\ structure.exe/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:ptr\ in_Embedded\ C.exe/activeLaunchMode=run
-org.eclipse.launchbar.core.descriptorType.default\:trqining.exe/activeLaunchMode=run
