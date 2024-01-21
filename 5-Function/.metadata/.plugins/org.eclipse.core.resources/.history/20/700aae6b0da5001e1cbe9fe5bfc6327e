@@ -1,0 +1,16 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٦‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+
+int main()
+{
+	const int x = 40;
+	int y = (x++) + 90;
+	printf("%d", y);
+	return 0;
+}

@@ -1,0 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٧‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char name[100];
+	char string[100];
+
+	printf("Enter string ");
+	fflush(stdout);
+	scanf("%s ", &name);
+
+	printf("Enter your name: ");
+	fflush(stdout);
+	scanf("%s ", &string);
+
+	if(stricmp(name, string) == 1)
+		printf("Pass");
+	else
+		printf("Wrong");
+
+	return 0;
+}

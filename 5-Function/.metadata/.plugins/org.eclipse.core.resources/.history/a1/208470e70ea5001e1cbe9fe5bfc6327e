@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٦‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+
+int fun()
+{
+	int y = 10;
+	return y;
+}
+
+int main()
+{
+	char str[6] = "Osama";
+	str = "Mora";
+
+	printf("%s",str);
+	return 0;
+}

@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: ١٠‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+#include <stdio.h>
+int main()
+{
+	printf("Hello world in 2025");
+	return 0;
+}

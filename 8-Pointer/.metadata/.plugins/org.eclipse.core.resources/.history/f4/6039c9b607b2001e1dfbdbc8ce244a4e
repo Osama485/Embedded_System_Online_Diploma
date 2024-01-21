@@ -1,0 +1,18 @@
+/*
+ * main.c
+ *
+ *  Created on: ١٣‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	unsigned long long  m = 29;
+	unsigned long long  *ptr;
+	ptr = &m;
+
+	printf("Address of m: 0x%x", *ptr);
+	return 0;
+}

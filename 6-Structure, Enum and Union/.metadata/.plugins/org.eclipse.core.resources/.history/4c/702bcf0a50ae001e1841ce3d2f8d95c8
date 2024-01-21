@@ -1,0 +1,35 @@
+/*
+ * main.c
+ *  Created on: ٠٨‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	int r;
+	double area;
+	printf("Enter radius of a circle: ");
+	fflush(stdout);
+	scanf("%d", &r);
+	area = 22/7 * r * r ;
+
+	printf("Area = %f", area);
+
+	struct Value
+	{
+		int bit1:1;
+		int bit3:4;
+		int bit4:4;
+	}bit={1, 2, 13};
+
+	printf("\n%d, %d, %d", bit.bit1, bit.bit3, bit.bit4);
+
+	struct bits
+	{
+		int i:2;
+	}bit1;
+	printf("Size of %d", sizeof(bit1));
+	return 0;
+}

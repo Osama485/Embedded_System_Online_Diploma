@@ -1,0 +1,16 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	long long x = -1;
+
+	printf("x = %u ", x);
+	return 0;
+}

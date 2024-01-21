@@ -1,0 +1,35 @@
+/*
+ * main.c
+ *
+ *  Created on: 13 Jan 2024
+ *      Author: Osama
+ */
+
+#include <string.h>
+#include <stdio.h>
+
+
+int main()
+{
+	char str[50];
+
+	printf("Input a string : ");
+	fflush(stdout);
+	gets(str);
+
+	char *start, *end;
+	int len = strlen(str);
+
+	while(start<end)
+	{
+		int temp = *start;
+		*start = *end;
+		*end = temp;
+		start++;
+		end--;
+	}
+	printF("The reverse string is: \n", str);
+
+	printf("%s", str);
+	return 0;
+}

@@ -1,0 +1,26 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٦‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+int Bit(int n, int bit)
+{
+	return n &= ~(1 << bit);
+}
+int fun(int x)
+{
+	int y = x+90;
+	return y;
+}
+int main()
+{
+
+	int a = 10;
+	fun(a);
+	printf("%d ", a);
+	printf("Osma");
+	return 0;
+}

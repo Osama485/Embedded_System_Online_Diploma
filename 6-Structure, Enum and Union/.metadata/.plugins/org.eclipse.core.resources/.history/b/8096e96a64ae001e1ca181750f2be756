@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *  Created on: ٠٨‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	union var
+	{
+		char a, b, c;
+	};
+	union var v;
+	v.a = 10;
+	v.b = 20;
+	v.c = 30;
+	printf("%d\n ",v.b);
+
+	return 0;
+}

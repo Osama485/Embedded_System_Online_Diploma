@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: ١٣‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	double m = 29;
+	double *ptr;
+	ptr = &m;
+
+	printf("Address of m: 0x%p\n", ptr);
+	printf("Value of m : %d", m);
+	return 0;
+}

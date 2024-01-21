@@ -1,0 +1,136 @@
+21:28:18 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:50:20: warning: missing braces around initializer [-Wmissing-braces]
+  short num[3][2] = {3, 6, 9, 12, 15, 18};
+                    ^
+..\main.c:50:20: note: (near initialization for 'num')
+..\main.c:52:2: warning: implicit declaration of function 'xp' [-Wimplicit-function-declaration]
+  xp();
+  ^~
+gcc -ansi -std=c89 -o trqining.exe main.o 
+Info: Nothing to build for trqining
+21:28:37 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:50:20: warning: missing braces around initializer [-Wmissing-braces]
+  short num[3][2] = {3, 6, 9, 12, 15, 18};
+                    ^
+..\main.c:50:20: note: (near initialization for 'num')
+..\main.c:52:2: warning: implicit declaration of function 'xp' [-Wimplicit-function-declaration]
+  xp();
+  ^~
+gcc -ansi -std=c89 -o trqining.exe main.o 
+21:59:56 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:51:8: warning: implicit declaration of function 'call' [-Wimplicit-function-declaration]
+  ptr = call();
+        ^~~~
+..\main.c:51:6: warning: assignment makes pointer from integer without a cast [-Wint-conversion]
+  ptr = call();
+      ^
+..\main.c: At top level:
+..\main.c:56:6: error: conflicting types for 'call'
+ int *call()
+      ^~~~
+..\main.c:51:8: note: previous implicit declaration of 'call' was here
+  ptr = call();
+        ^~~~
+..\main.c: In function 'call':
+..\main.c:60:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+22:00:12 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'call':
+..\main.c:60:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+gcc -ansi -std=c89 -o trqining.exe main.o 
+22:00:39 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:52:2: warning: implicit declaration of function 'clrscr' [-Wimplicit-function-declaration]
+  clrscr();
+  ^~~~~~
+..\main.c: In function 'call':
+..\main.c:61:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+gcc -ansi -std=c89 -o trqining.exe main.o 
+main.o: In function `main':
+D:\Embedded Diploma\Eclipse\unit_2\Assignments\8-Pointer\trqining\Debug/../main.c:52: undefined reference to `clrscr'
+collect2.exe: error: ld returned 1 exit status
+22:04:04 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:52:2: error: 'c' undeclared (first use in this function)
+  c = p-q;
+  ^
+..\main.c:52:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'call':
+..\main.c:61:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+22:04:16 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'call':
+..\main.c:61:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+gcc -ansi -std=c89 -o trqining.exe main.o 
+22:04:48 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'call':
+..\main.c:61:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+gcc -ansi -std=c89 -o trqining.exe main.o 
+22:05:04 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'call':
+..\main.c:61:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+gcc -ansi -std=c89 -o trqining.exe main.o 
+Info: Nothing to build for trqining
+Info: Nothing to build for trqining
+Info: Nothing to build for trqining
+22:11:57 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:52:16: warning: dereferencing 'void *' pointer
+  printf("%d ", *ptr);
+                ^~~~
+..\main.c:52:2: error: invalid use of void expression
+  printf("%d ", *ptr);
+  ^~~~~~
+..\main.c: In function 'call':
+..\main.c:60:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~
+22:12:12 **** Incremental Build of configuration Debug for project trqining ****
+Info: Internal Builder is used for build
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:51:2: error: function 'ptr' is initialized like a variable
+  void *ptr(int*) = (int*)&a;
+  ^~~~
+..\main.c:51:8: error: nested function 'ptr' declared but never defined
+  void *ptr(int*) = (int*)&a;
+        ^~~
+..\main.c: In function 'call':
+..\main.c:60:9: warning: function returns address of local variable [-Wreturn-local-addr]
+  return &a;
+         ^~

@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٧‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+
+#include <stdio.h>
+int main()
+{
+	int num, x, y;
+	printf("Enter a number in decimal: ");
+	fflush(stdout);
+	scanf("%d", &num);
+
+	for(x = 32; x >= 0; x--)
+	{
+
+	}
+	return 0;
+}

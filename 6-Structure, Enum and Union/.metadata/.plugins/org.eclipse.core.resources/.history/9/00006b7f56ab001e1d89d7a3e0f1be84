@@ -1,0 +1,13 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 5, 2024
+ *      Author: IT
+ */
+
+#include <stdio.h>
+int main()
+{
+	printf("osos");
+	return 0;
+}

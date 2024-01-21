@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+
+int main()
+{
+	int a, b;
+	printf("Enter 2numbers: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %d", &a, &b);
+	printf("The minimum number = %d", (a<b)? a:b);
+	return 0;
+}

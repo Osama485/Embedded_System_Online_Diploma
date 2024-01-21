@@ -1,0 +1,52 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+
+int main()
+{
+
+//	char chose;
+//	float r, circum, area;
+//	printf("Enter radius: ");
+//	fflush(stdin); fflush(stdout);
+//	scanf("%f", &r);
+//	printf("chose a to print the area or chose b to print the circumstance: ");
+//	fflush(stdin); fflush(stdout);
+//	scanf("%c", &chose);
+//
+//	if(chose == 'a')
+//	{
+//		area = 3.14 * r * r;
+//		printf("Area = %f", area);
+//	}
+//	else if(chose == 'b')
+//	{
+//		circum = 2 * 3.14 * r;
+//		printf("Circumstance %f = ", circum);
+//	}
+//	else
+//		printf("invalid chose...\n");
+//
+//
+//	return 0;
+
+	int n1, n2, n3;
+	printf("Enter 3 numbers to find the biggest one: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d, %d, %d", n1, n2, n3);
+
+	if(n1 > n2 && n1>n3)
+		printf("the biggest number is %d", n1);
+
+	else if(n2>n1 && n2>n3)
+		printf("the biggest number is %d", n2);
+	else
+		printf("the biggest number is %d", n3);
+
+}

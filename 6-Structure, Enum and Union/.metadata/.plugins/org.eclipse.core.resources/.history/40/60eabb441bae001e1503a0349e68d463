@@ -1,0 +1,54 @@
+/*
+ * main.c
+ *
+ *  Created on: ٠٨‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+
+#include <stdio.h>
+struct student
+{
+	short roll;
+	char name[20];
+	short marks;
+};
+
+struct student enter()
+{
+	struct student st;
+	int i;
+	for(i=1; i<=10; i++)
+	{
+
+		printf("for roll number ");
+		fflush(stdout);
+		scanf("%d", &st.roll[i]);
+
+		printf("Enter name ");
+		fflush(stdout);
+		scanf("%s", &st.name[i]);
+
+		printf("Enter marks ");
+		fflush(stdout);
+		scanf("%d", &st.marks[i]);
+	}
+	return st;
+}
+void printRes()
+{
+	struct student st;
+	int i;
+	for(i=1; i<=10; i++)
+	{
+		printf("information for roll number: %d \nName: %s \nMarks: %d", st.roll, st.name, st.marks);
+	}
+}
+int main()
+{
+	enter();
+	printf("Displaying information of students: \n");
+	printRes();
+	return 0;
+}

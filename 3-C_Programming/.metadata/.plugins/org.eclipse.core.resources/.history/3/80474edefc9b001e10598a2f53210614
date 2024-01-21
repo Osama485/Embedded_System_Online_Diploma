@@ -1,0 +1,17 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+//write a c program to check whether the number is positive or negative
+
+#include<stdio.h>
+int main()
+{
+	float n1;
+	printf("Enter a number to check: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%f", &n1);
+	return 0;
+}

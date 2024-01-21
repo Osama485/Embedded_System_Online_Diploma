@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+
+int main()
+{
+	int sum, i=1;
+	for(i = 1 ; i < 99 ; i++)
+	{
+		sum+=i;
+	}
+	printf("Sum = %d ", sum);
+}

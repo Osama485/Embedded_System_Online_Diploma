@@ -1,0 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٥‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include <stdio.h>
+
+void tryToModify(int x, char name[])
+{
+	x++;
+	name[0]++;
+}
+
+int main()
+{
+	int v = 5;
+	char name[5] = "Good";
+
+	printf("V = %d : name = %s\n", v, name);
+	tryToModify(v, name);
+	printf("V = %d : name = %s", v, name);
+
+
+	return 0;
+}
+
+

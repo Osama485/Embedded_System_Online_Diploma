@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: ١٣‏/٠١‏/٢٠٢٤
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+int main()
+{
+	int *ab;
+	int m;
+	m = 29;
+
+	printf("Address of m: %p\n", &m);
+	printf("Value of m : %d\n\n", m);
+
+	printf("Now ab is assigned with the address of m:\n");
+	ab = &m;
+	printf("Address of pointer ab: %p\n", ab);
+	return 0;
+}

@@ -1,0 +1,26 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 2, 2024
+ *      Author: IT
+ */
+
+
+#include<stdio.h>
+struct status_type
+{
+	unsigned x:1;
+	unsigned a:1;
+	unsigned s:1;
+	unsigned c:1;
+	unsigned d:1;
+	unsigned g:1;
+	unsigned h:1;
+	unsigned p:1;
+}sta;
+
+int main()
+{
+	sta.x=1;
+	printf("%d", sizeof(sta));
+}

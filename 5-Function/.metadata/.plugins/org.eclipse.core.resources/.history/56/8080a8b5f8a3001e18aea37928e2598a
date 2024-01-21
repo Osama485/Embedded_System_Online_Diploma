@@ -1,0 +1,57 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٥‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include <stdio.h>
+#include <string.h>
+void fun0()
+{
+	char c;
+	if((c = getchar()) != '\n')
+		fun0();
+	printf("%c", c);
+}
+void tryToModify(int x, char name[])
+{
+	x++;
+	name[0]--;
+}
+
+void printh(int downCount)
+{
+	printf("Hello.\n");
+	downCount--;
+
+	if(downCount > 0)
+		printh(downCount);
+}
+
+int reverse(int no)
+{
+	if(no == 0)
+		return 0;
+	else
+		printf("%d ",no);
+
+	reverse(no);
+}
+
+void fun(int n)
+{
+	if(n > 0)
+	{
+		fun(--n);
+		printf("%d, ", n);
+		fun(--n);
+	}
+}
+int main()
+{
+	int a=3;
+	fun(a);
+	return 0;
+}
+

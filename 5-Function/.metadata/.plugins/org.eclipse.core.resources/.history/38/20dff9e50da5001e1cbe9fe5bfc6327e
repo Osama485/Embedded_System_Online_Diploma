@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٦‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+
+int fun()
+{
+	int y = 10;
+	return y;
+}
+
+int main()
+{
+	static int x = fun();
+
+	printf("%d",x);
+	return 0;
+}

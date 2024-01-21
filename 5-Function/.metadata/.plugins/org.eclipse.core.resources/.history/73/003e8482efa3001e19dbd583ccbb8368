@@ -1,0 +1,32 @@
+/*
+ * main.c
+ *
+ *  Created on: ٢٥‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include <stdio.h>
+
+void tryToModify(int x, char name[])
+{
+	x++;
+	name[0]--;
+}
+
+void printh(int downCount)
+{
+	printf("Hello.\n");
+	downCount--;
+
+	if(downCount > 0)
+		printh(downCount);
+}
+
+int main()
+{
+	printh(10);
+
+	return 0;
+}
+
+

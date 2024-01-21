@@ -1,0 +1,25 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+// calculate a sum of natural numbers
+
+#include<stdio.h>
+int main()
+{
+	int i, n, sum;
+	printf("Enter the number of integer values: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%d", &n);
+
+	for(i = 0; i <= n; i++)
+	{
+		sum += i;
+	}
+	printf("sum of integer values = %d", sum);
+	return 0;
+}
+

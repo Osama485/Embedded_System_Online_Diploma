@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: ١٨‏/١٢‏/٢٠٢٣
+ *      Author: Osama
+ */
+
+#include<stdio.h>
+int main()
+{
+	int matrix[2][3];
+	int row, col, r, c;
+
+	printf("Enter number of Rows and columns:");
+	fflush(stdin); fflush(stdout);
+	scanf("%d %d", &r, &c);
+
+	return 0;
+}

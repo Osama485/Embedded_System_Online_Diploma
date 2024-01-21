@@ -1,0 +1,40 @@
+/*
+ * main.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Osama
+ */
+
+
+#include<stdio.h>
+
+int main()
+{
+	//Lab_1
+
+	char chose;
+	float r, circum, area;
+	printf("Enter radius: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%f", &r);
+	printf("chose a to print the area or chose b to print the circumstance: ");
+	fflush(stdin); fflush(stdout);
+	scanf("%c", &chose);
+
+	if(chose == 'a')
+	{
+		area = 3.14 * r * r;
+		printf("Area = %f", area);
+	}
+	else if(chose == 'b')
+	{
+		circum = 2 * 3.14 * r;
+		printf("Circumstance %f = ", circum);
+	}
+	else
+	{
+		printf("invalid chose...\n");
+	}
+
+	return 0;
+}

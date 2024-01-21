@@ -1,0 +1,145 @@
+00:44:22 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:24:15: error: expected ':' before numeric constant
+  x = Max(2+3, 2+7, 3+7);
+               ^
+../main.c:19:37: note: in definition of macro 'Max'
+ #define Max(a, b, c) (a>b? a>c? a:c b>c? b:c)
+                                     ^
+make: *** [main.o] Error 1
+00:44:25 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:24:15: error: expected ':' before numeric constant
+  x = MAX(2+3, 2+7, 3+7);
+               ^
+../main.c:19:37: note: in definition of macro 'MAX'
+ #define MAX(a, b, c) (a>b? a>c? a:c b>c? b:c)
+                                     ^
+make: *** [main.o] Error 1
+00:44:38 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:24:22: error: 'x' undeclared (first use in this function)
+  printf("X = %d \n", x);
+                      ^
+../main.c:24:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [main.o] Error 1
+00:44:38 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:24:22: error: 'x' undeclared (first use in this function)
+  printf("X = %d \n", x);
+                      ^
+../main.c:24:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [main.o] Error 1
+00:44:49 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Examples.exe
+Invoking: MinGW C Linker
+gcc -E ../main.c -o ./main.i
+Osama: Generate Assembly file.d
+gcc -S ../main.c -o ./main.s
+gcc -ansi -std=c89  -o "Examples.exe"  ./main.o   
+Finished building target: Examples.exe
+ 
+00:46:06 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Examples.exe
+Invoking: MinGW C Linker
+gcc -E ../main.c -o ./main.i
+Osama: Generate Assembly file.d
+gcc -S ../main.c -o ./main.s
+gcc -ansi -std=c89  -o "Examples.exe"  ./main.o   
+Finished building target: Examples.exe
+ 
+00:46:21 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+make: Nothing to be done for `all'.
+00:46:56 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+make: Nothing to be done for `all'.
+00:47:11 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+make: Nothing to be done for `all'.
+00:47:30 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Examples.exe
+Invoking: MinGW C Linker
+gcc -E ../main.c -o ./main.i
+Osama: Generate Assembly file.d
+gcc -S ../main.c -o ./main.s
+gcc -ansi -std=c89  -o "Examples.exe"  ./main.o   
+Finished building target: Examples.exe
+ 
+00:47:42 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+make: Nothing to be done for `all'.
+00:49:38 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: Examples.exe
+Invoking: MinGW C Linker
+gcc -E ../main.c -o ./main.i
+Osama: Generate Assembly file.d
+gcc -S ../main.c -o ./main.s
+gcc -ansi -std=c89  -o "Examples.exe"  ./main.o   
+Finished building target: Examples.exe
+ 
+00:54:59 **** Incremental Build of configuration Debug for project Examples ****
+make all 
+Building file: ../main.c
+Invoking: GCC C Compiler
+gcc -ansi -std=c89 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:26:14: error: 'Y' undeclared (first use in this function)
+ #define X (4+Y)
+              ^
+../main.c:27:12: note: in expansion of macro 'X'
+ #define Y (X+4)
+            ^
+../main.c:30:17: note: in expansion of macro 'Y'
+  printf("%d\n", Y+3);
+                 ^
+../main.c:26:14: note: each undeclared identifier is reported only once for each function it appears in
+ #define X (4+Y)
+              ^
+../main.c:27:12: note: in expansion of macro 'X'
+ #define Y (X+4)
+            ^
+../main.c:30:17: note: in expansion of macro 'Y'
+  printf("%d\n", Y+3);
+                 ^
+make: *** [main.o] Error 1

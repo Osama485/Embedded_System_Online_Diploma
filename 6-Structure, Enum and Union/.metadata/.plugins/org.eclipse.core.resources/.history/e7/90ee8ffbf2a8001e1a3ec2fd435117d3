@@ -1,0 +1,16 @@
+/*
+ * main.c
+ *
+ *  Created on: Jan 1, 2024
+ *      Author: IT
+ */
+
+#include <stdio.h>
+#include <string.h>
+#include <conio.h>
+
+int main()
+{
+	printf("Osama\n");
+	return 0;
+}
